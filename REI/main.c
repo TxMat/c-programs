@@ -58,7 +58,7 @@ int main(int argc, char *argv[]){
 
 	
 	if (filemode){
-		printf("%i ideas writed\n", ideanb);
+		printf("%i ideas written\n", ideanb);
 		fclose(fp);
 	} else {
 		printf("%i ideas generated\n", ideanb);		
